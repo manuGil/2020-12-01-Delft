@@ -191,7 +191,7 @@ special instructions.
   We are committed to making this workshop
   accessible to everybody. Please let us know if there is any specific accomodation that you require.
 </p>
-{% comment %}
+
 <ul>
   <li>The room is wheelchair / scooter accessible.</li>
   <li>Accessible restrooms are available.</li>
@@ -209,7 +209,7 @@ special instructions.
   anything we can do to make this workshop more accessible to you.
 </p>
 {% endif %}
-{% endcomment %}
+
 {% comment %}
 CONTACT EMAIL ADDRESS
 
