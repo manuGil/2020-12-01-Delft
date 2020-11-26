@@ -19,7 +19,7 @@
           <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
           <li>Run the installer and follow the steps below:
             <ol>
-              {% comment %} Git 2.23.0 Setup {% endcomment %}
+              {% comment %} Git 2.29.2 Setup {% endcomment %}
               <li>
                 Click on "Next" four times (two times if you've previously
                 installed Git).  You don't need to change anything
@@ -27,7 +27,7 @@
               </li>
               <li>
                 <strong>
-                  From the dropdown menu select "Use the nano editor by default" and click on "Next".
+                  From the dropdown menu select "Use the nano editor by default" and click on "Next" two times.
                 </strong>
               </li>
               {% comment %} Adjusting your PATH environment {% endcomment %}
@@ -56,7 +56,11 @@
               </li>
               {% comment %} Configuring extra options {% endcomment %}
               <li>
-		Ensure that "Enable file system caching" and "Enable Git Credential Manager" are selected
+		Ensure that "Enable Git Credential Manager Core" is selected
+		and click on "Next".
+              </li>
+              <li>
+		Ensure that "Enable file system catching" is selected
 		and click on "Next".
               </li>
               {% comment %} Configuring experimental options {% endcomment %}
